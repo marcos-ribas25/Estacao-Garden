@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) {
+  .banner-interna {
+    height: 321px;
+  }
+  .grid-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #sobre .image {
+    display: none;
+    min-height: 0;
+  }
+  #sobre.contato .content {
+    text-align: center;
+  }
+  #sobre .text {
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}

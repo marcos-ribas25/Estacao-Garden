@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Gilland';
+  src: url('../fonts/Gilland-Bold.otf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Gilland';
+  src: url('../fonts/Gilland-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/Nexa Bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/Nexa Light.otf') format('opentype');
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+strong,
+time,
+address,
+i,
+a,
+b,
+label,
+li,
+td {
+  text-rendering: optimizeLegibility !important;
+}
+/*familias*/
+[class*="-gilland"] {
+  font-family: Gilland;
+}
+[class*="-nexa"] {
+  font-family: Nexa;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/*Font Weights----------------------------------------------------------*/
+[class*="-bold"] {
+  font-weight: 700;
+}
+[class*="-semibold"] {
+  font-weight: 600;
+}
+[class*="-medium"] {
+  font-weight: 500;
+}
+[class*="-regular"] {
+  font-weight: 400;
+}
+[class*="-light"] {
+  font-weight: 300;
+}
+[class*="-italic"] {
+  font-style: italic !important;
+}
+[class*="titulo-1"] {
+  font-size: 64px;
+}
+[class*="titulo-2"] {
+  font-size: 48px;
+}
+[class*="titulo-3"] {
+  font-size: 24px;
+}
+[class*="titulo-4"] {
+  font-size: 20px;
+}
+[class*="titulo-5"] {
+  font-size: 12px;
+}
+[class*="paragrafo-1"] {
+  font-size: 24px;
+}
+[class*="paragrafo-2"] {
+  font-size: 16px;
+}
+[class*="paragrafo-3"] {
+  font-size: 14px;
+}
+[class*="link-1"] {
+  font-size: 24px;
+}
+[class*="link-2"] {
+  font-size: 16px;
+}
+[class*="link-3"] {
+  font-size: 14px;
+}
+[class*="link-4"] {
+  font-size: 12px;
+}
+@media only screen and (max-width: 1400px) {
+  [class*="titulo-1"] {
+    font-size: 57px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  [class*="titulo-2"] {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  [class*="titulo-2"] {
+    font-size: 39px;
+  }
+}

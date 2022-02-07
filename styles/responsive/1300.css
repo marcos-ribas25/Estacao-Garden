@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1300px) {
+  #categorias .bg {
+    height: 431px;
+  }
+  .banner-interna {
+    height: 421px;
+  }
+  #sobre.contato .content {
+    max-width: 487px;
+  }
+}
