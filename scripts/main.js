@@ -3,52 +3,55 @@ $(document).ready(function () {
     const buttonIconMap = document.querySelector('.icon-map');
     const imageMap = document.querySelector('.imagem-localizacao');
 
-    buttonIconMap.onclick = function () {
-        imageMap.classList.toggle("iframe-active");
+    if(imageMap) {
+        buttonIconMap.onclick = function () {
+            imageMap.classList.toggle("iframe-active");
+        }
     }
 
-    $('.owl-feedback').owlCarousel({
-        loop: false,
-        margin: 30,
-        nav: false,
-        dots: true,
-        items: 3
-    })
+    if ($('.owl-feedback')) {
+        $('.owl-feedback').owlCarousel({
+            loop: false,
+            margin: 30,
+            nav: false,
+            dots: true,
+            items: 3
+        })
+    }
 
-    $('.owl-videos').owlCarousel({
-        loop: false,
-        margin: 30,
-        nav: true,
-        dots: false,
-        navText: ["<img src='images/nav-left.png'>", "<img src='images/nav-right.png'>"],
-        items: 3
-    })
+    if ($('.owl-videos')) {
+        $('.owl-videos').owlCarousel({
+            loop: false,
+            margin: 30,
+            nav: true,
+            dots: false,
+            navText: ["<img src='images/nav-left.png'>", "<img src='images/nav-right.png'>"],
+            items: 3
+        })
+    }
 
-    $('.owl-categorias').owlCarousel({
-        loop: false,
-        margin: 0,
-        nav: false,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            500: {
-                items: 2
-            },
-            600 : {
-                items: 3
-            },
-            1024 : {
-                items: 4 
+    if ($('.owl-categorias')) {
+        $('.owl-categorias').owlCarousel({
+            loop: false,
+            margin: 0,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1024: {
+                    items: 4
+                }
             }
-        }
-    })
-
-
-    
-
-
+        })
+    }
 
     var SPMaskBehavior = function (val) {
         return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
