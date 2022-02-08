@@ -1,5 +1,10 @@
 
 $(document).ready(function () {
+//header
+
+
+//-------------------------------------
+
     const buttonIconMap = document.querySelector('.icon-map');
     const imageMap = document.querySelector('.imagem-localizacao');
 
