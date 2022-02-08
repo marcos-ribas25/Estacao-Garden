@@ -53,6 +53,16 @@ $(document).ready(function () {
         })
     }
 
+    if ($('.owl-sobre')) {
+        $('.owl-sobre').owlCarousel({
+            loop: false,
+            margin: 30,
+            nav: false,
+            dots: true,
+            items: 1
+        })
+    }
+
     var SPMaskBehavior = function (val) {
         return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
     }, spOptions = {

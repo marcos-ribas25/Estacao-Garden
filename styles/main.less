@@ -1223,3 +1223,137 @@ footer {
         margin-top:70px;
     }
 }
+
+//QUEM SOMOS//
+
+#sobre-nos {
+    padding: 80px 0;
+
+    .container-garden {
+        max-width: 1412px;
+
+        .owl-carousel {
+            padding: 0 26px;
+            .owl-dots {
+                margin-top: 0;
+                position: absolute;
+                top: 0;
+                aspect-ratio: 2.31407942;
+                right: -6px;
+                width: calc(100% - 52px);
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: flex-end;
+                padding-bottom: 20px;
+
+
+                .owl-dot {
+                    margin: 0;
+                    display: block;
+                    span {
+                        width: 12px;
+                        height: 12px;
+                        margin: 0;
+                        background-color: #088c61;
+                        opacity: 0.3;
+                    }
+                }
+
+                .owl-dot.active {
+                        span {
+                        background-color: #088c61;
+                        opacity: 1;
+                        }
+                        
+                
+                    
+                   
+                }
+                .owl-dot + .owl-dot {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    .box-sobre {
+        width: 100%;
+
+        .image {
+            width: 100%;
+            min-height: 554px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 1282/554;
+            }
+        }
+
+        .image + * {
+            margin-top: 55px;
+        }
+      
+        .text {
+            display: flex;
+
+         p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 6; 
+                    line-clamp: 6; 
+            -webkit-box-orient: vertical;
+            line-height: 27px;
+            margin-bottom: 0;
+         }
+
+         div + * {
+             margin-left: 20px;
+         }
+        }
+ 
+    }
+
+
+}
+
+#equipe {
+    .image {
+        width: 100%;
+
+        img {
+            object-fit: cover;
+            object-position: center center;
+            width: 100%;
+            aspect-ratio: 1.03018868;
+        }
+    }
+
+    .text {
+        text-align: center;
+        padding-top: 20px;
+        
+
+        h3 {
+            margin-bottom: 5px;
+            color: var(--verde-escuro);
+        }
+
+        p {
+            margin-bottom: 0;
+            color: #2e2e2e;
+        }
+    }
+}
+
+#equipe + * {
+    margin-top: 90px;
+}
+
+#localizacao.meio-a-meio, #sobre.meio-a-meio {
+    .caixa-imagem, .caixa-amarela, .image, .text {
+        width: 50%;
+    }
+}
