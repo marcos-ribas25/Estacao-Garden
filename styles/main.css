@@ -954,3 +954,108 @@ footer p a:hover {
 .sections-interna .top + * {
   margin-top: 70px;
 }
+#sobre-nos {
+  padding: 80px 0;
+}
+#sobre-nos .container-garden {
+  max-width: 1412px;
+}
+#sobre-nos .container-garden .owl-carousel {
+  padding: 0 26px;
+}
+#sobre-nos .container-garden .owl-carousel .owl-dots {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  aspect-ratio: 2.31407942;
+  right: -6px;
+  width: calc(100% - 52px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+#sobre-nos .container-garden .owl-carousel .owl-dots .owl-dot {
+  margin: 0;
+  display: block;
+}
+#sobre-nos .container-garden .owl-carousel .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #088c61;
+  opacity: 0.3;
+}
+#sobre-nos .container-garden .owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #088c61;
+  opacity: 1;
+}
+#sobre-nos .container-garden .owl-carousel .owl-dots .owl-dot + .owl-dot {
+  margin-top: 5px;
+}
+#sobre-nos .box-sobre {
+  width: 100%;
+}
+#sobre-nos .box-sobre .image {
+  width: 100%;
+  min-height: 554px;
+}
+#sobre-nos .box-sobre .image img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1282/554;
+}
+#sobre-nos .box-sobre .image + * {
+  margin-top: 55px;
+}
+#sobre-nos .box-sobre .text {
+  display: flex;
+}
+#sobre-nos .box-sobre .text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+#sobre-nos .box-sobre .text div + * {
+  margin-left: 20px;
+}
+#equipe .image {
+  width: 100%;
+}
+#equipe .image img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  aspect-ratio: 1.03018868;
+}
+#equipe .text {
+  text-align: center;
+  padding-top: 20px;
+}
+#equipe .text h3 {
+  margin-bottom: 5px;
+  color: var(--verde-escuro);
+}
+#equipe .text p {
+  margin-bottom: 0;
+  color: #2e2e2e;
+}
+#equipe + * {
+  margin-top: 90px;
+}
+#localizacao.meio-a-meio .caixa-imagem,
+#sobre.meio-a-meio .caixa-imagem,
+#localizacao.meio-a-meio .caixa-amarela,
+#sobre.meio-a-meio .caixa-amarela,
+#localizacao.meio-a-meio .image,
+#sobre.meio-a-meio .image,
+#localizacao.meio-a-meio .text,
+#sobre.meio-a-meio .text {
+  width: 50%;
+}
